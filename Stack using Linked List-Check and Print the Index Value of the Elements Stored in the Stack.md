@@ -1,18 +1,18 @@
-# 📚 Stack using Linked List: Check and Print the Index Value of the Elements Stored in the Stack
+# 12d)  Stack using Linked List: Check and Print the Index Value of the Elements Stored in the Stack
 
 This Python program demonstrates how to:
 1. Create a stack using a list.
 2. Add elements to the stack.
 3. Print the index and corresponding value of each element in the stack.
 
-## 🎯 Aim
+##  Aim
 
 To write a Python program that:
 - Creates a stack using a list.
 - Adds elements to the stack.
 - Prints the index values of the stack elements along with the corresponding values.
 
-## 🧠 Algorithm
+##  Algorithm
 
 1. **Create an Empty Stack**:
    - Initialize an empty list `stack` to store elements.
@@ -30,9 +30,19 @@ To write a Python program that:
 5. **Print Index and Value**:
    - For each element in the stack, print the index and the value at that index.
 
-## 📝 Program
-Add Code here
-
+##  Program
+```
+stack = []
+stack.append(input("Insert the first element:"))
+stack.append(input("\nInsert the second element:"))
+stack.append(input("\nInsert the third element:"))
+print('\nInitial stack: ' + str(stack))
+for i in range(len(stack)):
+    print(i,end=" ")
+    print(stack[i])
+```
 ## Sample Input & Output
+<img width="972" height="491" alt="image" src="https://github.com/user-attachments/assets/02abaa7a-c384-4a9b-b3b2-ff1c5a8ec6ff" />
 
 ## Result
+Program executed Successfully.
